@@ -168,9 +168,5 @@ const styles = StyleSheet.create({
     color: "red",
     fontSize: 18,
     fontStyle: "italic"
-  },
-  scrollHeight: {
-    height: 100,
-    width: '80%'
   }
 });
