@@ -6,7 +6,7 @@ const TaskCard = ({title, desc, status, onClick}) => {
         <View style={styles.card}>   
             <View style={styles.header}>
                 <Text style={styles.title}>
-                    {/* {title} */}
+                    {title}
                 </Text>   
                 <CircleCheck color='green' size={32}/>
             </View>
@@ -30,8 +30,10 @@ const styles = StyleSheet.create({
         shadowColor: "#000",
         shadowOpacity: 0.1,
         shadowRadius: 5,
-        elevation: 3,
-        marginVertical: 10
+        elevation: 1,
+        marginVertical: 10,
+        height: 150,
+        width: "100%"
     },
     header: {
         flexDirection: 'row',
@@ -68,3 +70,4 @@ const styles = StyleSheet.create({
 });
 
 export default TaskCard;
+
